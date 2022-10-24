@@ -1,0 +1,50 @@
+#game table {
+    border: 3px rgb(49, 47, 47);
+    background-color: rgb(49, 47, 47);
+}
+#game td {
+    width: 2cm;
+    height: 2cm;
+    margin: 0px;
+    padding: 0px;
+    border: 2px rgb(49, 47, 47);
+    border-radius: 2cm;
+    background-color: white;
+    cursor: pointer;
+}
+#game td.player1 {
+    background-color: red;
+}
+#game td.player2 {
+    background-color: yellow;
+}
+
+#currentP {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: rgb(49, 47, 47);
+    border-radius: 2cm;
+    margin: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#table {
+    position: absolute;    
+}
+
+body {
+    background-color : rgb(14, 13, 13);
+}
+
+button {
+    background-color: rgb(49, 47, 47);
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: 2px rgb(49, 47, 47);
+    border-radius: 2cm;
+    cursor: pointer;
+}
