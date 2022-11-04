@@ -5,6 +5,7 @@ class P4 {
         this.rows = rows;
         this.cols = cols;
 
+        
         this.player1 = player1;
         this.player2 = player2;
 
